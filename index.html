@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bazar Murah Kelas XII A</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Promo Special</h3>
+      <h1>Bazar XII TKJ A</h1>
+      <p class="waktu">Pada 2 Maret 2024</p>
+      <h3 class="menu">Menu Bazar :</h3>
+      <ul class="list-product">
+        <li>
+          <header>
+            <img src="Lontong Balap.jpg" alt="produk 1" />
+          </header>
+          <div class="info">
+            <h3>Lontong Balap</h3>
+            <p class="price">Rp 5.000</p>
+          </div>
+        </li>
+        <li>
+          <header>
+            <img src="Cara Membuat Es Kopyor.jpg" alt="produk 2" />
+          </header>
+          <div class="info">
+            <h3>Es Kopyor</h3>
+            <p class="price">Rp 2.000</p>
+          </div>
+        </li>
+      </ul>
+      <p>Stok terbatas!</p>
+      <button class="book-now-btn">Pesan Sekarang</button>
+    </div>
+    <script>
+      const bookNowBtn = document.querySelector(".book-now-btn");
+
+      bookNowBtn.addEventListener("click", () => {
+        location.href = "https://wa.me/6281357076898";
+      });
+    </script>
+  </body>
+</html>
